@@ -1,0 +1,33 @@
+Algoritmo suma_tarea5
+	
+	//definimos las varibles que vamos a necesitar como enteros
+	definir i, cantidad1, cantidad2, suma Como Entero;
+	
+	
+	//a cada una le asignamos la misma longitud
+	Dimension cantidad1[45];
+	dimension cantidad2[45];
+	dimension suma[45];
+	
+	//creamos el ciclo en el cual se ingresaran los dos numeros
+	//y se realizará la suma de ellos
+	para i<-0 Hasta 45-1 con paso 1 Hacer
+		escribir "1.ingrese el numero";
+		leer cantidad1[i];
+		Escribir "2.ingrese el numero";
+		Leer cantidad2[i];
+		
+		//asignamos el valor que tendrá la variable de suma
+		suma[i]<-cantidad1[i]+cantidad2[i];
+		
+	FinPara
+	 //creamos otro ciclo para que se imprima la suma de cada dos numeros
+	para i<-0 hasta 45-1 Con Paso 1 Hacer
+		escribir "el resultado de la suma es: ", suma[i];
+	FinPara
+
+	
+	
+	
+FinAlgoritmo
+	
